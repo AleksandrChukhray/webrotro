@@ -1,0 +1,120 @@
+doctype html
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+html
+	head
+		title WEBROTOR | Услуги
+		include blocks/meta.jade
+		include blocks/link.jade
+	body.b-services__bgc
+		.b-main-wrapper
+			include blocks/header_main.jade
+			section
+				.row
+					.container
+						.col-md-12
+							.b-services
+								.b-services__text
+									.b-text--services
+										.b-text__item Анимация 
+										.b-text__item Иллюстрация
+										.b-text__item Дизайн
+										.b-text__item Вёрстка
+										.b-text__item Оптимизация
+									.b-text--small
+										.b-text__item Секретные разработки.
+										.b-text__item Нестандартные решения.
+										.b-text__item Выпендрёж.
+			section.b-description--services
+				.row					
+					.b-descr__header
+						.container
+							.col-md-12
+								h2.
+									Всего лишь пестрые человечки 
+
+					.b-descr__body
+						.container
+							.col-md-12
+								p.b-descr__body-text.
+									Эти трое подтвердили теорию, что стрит-арт имеет общественно-критическую 
+									подоплеку. Но не все придерживаются этого мнения столь единодушно. 
+									Для известного берлинского уличного художника Бронко, который прославился, 
+									в первую очередь, благодаря своим общественно-критическим клише, поведения 
+									таких активистов как Кемноц и Бански, критикующих потребительство и консьюмеризм, с
+									корее исключение, чем правило. Там, где в рисунках на стенах больших городов 
+									многие пытаюсь разглядеть последний оплот гражданского неповиновения, Бронко 
+									видит только розового кролика. «Понятно, что стрит-арт в основном незаконен и 
+									поэтому неразрывно связан с бунтарским духом», но, по его мнению, речь идет в 
+									большей степени о том, что «я здесь был», о том, чтобы пощекотать нервы, чем 
+									о реальной критике общества. «Стрит-арт стал своеобразным бунтом без размышления, 
+									без рефлексии», - грустно утверждает он. Вместо того чтобы формулировать новые 
+									политические установки, все действо скатывается к комическим сюжетам, забавным 
+									сценкам: «Я больше не могу видеть всех этих пестрых человечков. По мне это всё 
+									вообще не стрит-арт», - критикует он некоторых своих коллег-художников. 
+									По мнению Бронко, искусство на улицах стало слишком приглаженным, слишком 
+									красивым. «Эстетика стрит-арта стала нравиться обществу, и оно само стало само 
+									требовать такого искусство и, что хуже всего, оплачивать его». 
+								p.b-descr__body-text.
+									Эти трое подтвердили теорию, что стрит-арт имеет общественно-критическую 
+									подоплеку. Но не все придерживаются этого мнения столь единодушно. 
+									Для известного берлинского уличного художника Бронко, который прославился,
+								.b-descr__body-dropdown
+									.row
+										.col-md-6
+											ol.b-dropdown
+												li.b-dropdown__item#headingOne
+													a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne").b-link.b-dropdown__title 1.Интернет маркетинг
+														<i class="fa fa-angle-down"></i>
+													div(id="collapseOne" class="b-dropdown__list collapse" role="tabpanel" aria-labelledby="headingOne" )
+														ul.b-list
+															li.b-list__item - Все аспекты традиционного маркетинга в Интернете
+															li.b-list__item - Микс: цена, продукт, сайт, SEO.
+															li.b-list__item - Получение максимального эффекта от потенциальной аудитории сайта.
+												li.b-dropdown__item#headingTwo
+													a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo").b-link.b-dropdown__title 2.Создание сайта
+														<i class="fa fa-angle-down"></i>
+
+													div(id="collapseTwo" class="b-dropdown__list collapse" role="tabpanel" aria-labelledby="headingTwo" )
+														ul.b-list
+															li.b-list__item - Концепт
+															li.b-list__item - Контент
+															li.b-list__item - Дизайн
+												li.b-dropdown__item#headingThree
+													a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree").b-link.b-dropdown__title 3.SEO Продвижение сайта
+														<i class="fa fa-angle-down"></i>
+													div(id="collapseThree" class="b-dropdown__list collapse" role="tabpanel" aria-labelledby="headingThree" )
+														ul.b-list
+															li.b-list__item - Поисковая оптимизация
+															li.b-list__item - Внутренняя оптимизация
+															li.b-list__item - Контексная реклама
+												li.b-dropdown__item#headingFour
+													a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour").b-link.b-dropdown__title 4.Рекламные и PR акции
+														<i class="fa fa-angle-down"></i>
+													div(id="collapseFour" class="b-dropdown__list collapse" role="tabpanel" aria-labelledby="headingFour" )
+														ul.b-list
+															li.b-list__item - Идеи
+															li.b-list__item - Инструменты
+															li.b-list__item - Проведение
+															li.b-list__item - Анализ
+												li.b-dropdown__item#headingFive
+													a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive").b-link.b-dropdown__title 5.Бренд
+														<i class="fa fa-angle-down"></i>
+													div(id="collapseFive" class="b-dropdown__list collapse" role="tabpanel" aria-labelledby="headingFive" )
+														ul.b-list
+															li.b-list__item - Идеи
+															li.b-list__item - Инструменты
+															li.b-list__item - Проведение
+															li.b-list__item	- Анализ	
+										.col-md-6
+											.b-descr__body-img
+												img(src="img/bang-bang.png", alt="Bang-Bang")
+		include blocks/footer.jade

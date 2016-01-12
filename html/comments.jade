@@ -1,0 +1,124 @@
+doctype html
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+html
+	head
+		title WEBROTOR | Комментарии
+		include blocks/meta.jade
+		include blocks/link.jade
+	body.b-comments
+		.b-main-wrapper
+			include blocks/header.jade
+			section
+				.container
+					.row
+						.col-md-8.col-sm-12
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item
+								.b-comment
+									.b-comment__img
+										img(src="img/comments_img.png", alt="Some name")
+									.b-comment__text
+										.b-text--comments
+											p.b-text__text.
+												Офигенные патсаны. Сделали мне такой сайт, что я охнул. 
+												Правда это не то, что я ожидал первоначально. Ну может это и к 
+												лучшему. Я же так просто огуречник. Собираю огурцы на брезентовом 
+												поле. Алюминиевые. Но сайт помог продвинуть бизнес. Не много, но 
+												помог.
+							.b-comments__item--napoleon
+								.b-napoleon
+									img(src="img/napoleon.png", alt="")
+							.b-comments__item--post-comment
+								.row
+									form(action="action.php" name="post_comment").b-post-comment
+										.b-post-comment__title Мы надеемся на любой ваш отзыв
+										label.b-post-comment__input--left.b-post-comment__input
+											input(type='text' placeholder="Имя" required).b-post-comment__name
+											input(type='text' placeholder="Email" required).b-post-comment__email
+											input(type='text' placeholder="Тема" required).b-post-comment__theme
+										label.b-post-comment__input--right.b-post-comment__input
+											textarea(placeholder="Сообщения" required).b-post-comment__textarea
+										label.b-post-comment__input--right
+											input(type='submit' value="Отправить отзыв").b-post-comment__submit
+										
+		include blocks/footer.jade

@@ -1,0 +1,49 @@
+doctype html
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+html
+	head
+		title WEBROTOR | Контакты
+		include blocks/meta.jade
+		include blocks/link.jade
+	body.b-contacts__bgc
+		.b-main-wrapper
+			include blocks/header.jade
+			section.b-contacts
+				.container
+					.b-contacts__header Готовы начать? Свяжитесь с нами сейчас!
+					.row
+						.col-md-6
+							.b-contacts__item
+								.b-position
+									.b-position__img
+										img(src="img/contact_ico_1.png", alt="Москва")
+									.b-position__header МОСКВА
+									.b-position__adres г. Москва ул. Ленинская Слобода, 5 офис 365
+									.b-position__tel тел.:   +7 985 438 70 97
+									.b-position__email email:  webrotor15@gmail.com
+									.b-position__link 
+										a(href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true") Посмотреть на карте
+						.col-md-6
+							.b-contacts__item
+								.b-position
+									.b-position__img
+										img(src="img/contact_ico_2.png", alt="Киев")
+									.b-position__header КИЕВ
+									.b-position__adres г. Киев ул. Московская 46/2, офис 129
+									.b-position__tel тел.: +3 8066 488 18 59
+									.b-position__email email: webrotor15@gmail.com
+									.b-position__link 
+										a(href="#profile" id="profile-tab" role="tab" data-toggle="tab" aria-controls="profile" aria-expanded="fasle") Посмотреть на карте
+			section.b-map
+				#profile.b-map__kiev.fade.active.in(aria-labelledby="home-tab" role="tabpanel")
+				#home.b-map__mosckow.fade.active.in(aria-labelledby="profile-tab" role="tabpanel")
+		include blocks/footer.jade
